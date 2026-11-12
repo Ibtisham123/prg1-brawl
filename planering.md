@@ -10,6 +10,8 @@ kan spelaren välja mellan varje tur? Finns det en regel som bara ditt spel har?
 
 Skriv några meningar. Idén får ändras längs vägen, och då skriver du vad du ändrade i faser.md.
 
+2 spelare. the murderer and the detective. counter attack exists also. vinstatistiks exist also genom while loop.  a special attack 'cool down' is also there
+
 ## Fyra frågor planen ska svara på
 
 Tänk igenom dessa steg på samma sätt som vi har gjort spårningen tillsammans på tavlan. Vilka variabler behöver du? Vilka villkor? Vad ska de göra? Vad sker i nästa steg/rad?
@@ -52,3 +54,5 @@ Skriv listan här och skapa korten efteråt, eller direkt som kort.
 
 - a
 - b
+
+Detta är ett turbaserat fightingspel i terminalen för två spelare där den ena spelar som Mördaren och den andra som Detektiven. Varje runda väljer spelarna mellan att göra en vanlig attack, ladda upp för en kraftfull specialattack med cooldown eller försöka blockera och slå tillbaka med en kontringsattack, där all skada slumpas fram inom olika intervall och inmatningen är helt kraschsäker. Kampen pågår i en `while`-loop tills någon når noll HP, och runt matcherna ligger en `for`-loop som kör bäst av tre ronder och håller koll på vinststatistiken mellan karaktärerna.
