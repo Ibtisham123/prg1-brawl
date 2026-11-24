@@ -26,5 +26,8 @@ while mordare_hp > 0 and detektiv_hp > 0:
     else :
         print (f"{mordare_namn} lost!")
 
+
+mordare_cooldown = 0
+detektiv_cooldown = 0
         
         
